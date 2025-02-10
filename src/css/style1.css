@@ -10,15 +10,13 @@ body {
     font-weight: 600;
     font-style: normal;
     background-color: #ffffff;
-
-
 }
 
 
 .header_divider {
     display: block;
     width: 100%;
-    height: 100px;
+    height: 40px;
     margin-top: 0;
 
 }
@@ -140,7 +138,7 @@ nav {
     text-align: center;
     justify-content: center;
     align-items: center;
-    display: none;
+    
 
 
 
@@ -149,7 +147,7 @@ nav {
 
 .menu_text:active {
     color: #539DF3;
-    display: none;
+  
 }
 
 
@@ -160,24 +158,14 @@ nav {
     display: flex;
     margin-top: 50px;
 }
-
-
-
-
-
-
-
-
-
-.post_divider{
-    margin-top: 100px;
+.name_and_icon{
+    gap: 20px;
 }
-
 .image_divider_main {
     width: 600px;
     height: 80vh;
     display: block;
-    padding-top: 10px;
+   margin-top: 70px;
 }
 
 .text_h1 {
@@ -237,14 +225,11 @@ nav {
 
 video {
     width: 100%;
-    height: 550px;
     object-fit: contain;
 }
 
 .video_info {
     width: 100%;
-
-
 }
 
 .video_text {

@@ -1,0 +1,159 @@
+* {
+    margin: 0 auto;
+    padding: 0 auto;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Source Sans 3", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    background-color: #ffffff;
+    margin-bottom: 100px;
+}
+.header_divider_users{
+    width: 100%;
+    height: 40px;
+    margin-top: 0;
+}
+
+.icon_text_divider{
+    width: 100%;
+    display: flex;
+    justify-content:start;
+    align-items: center;
+    padding-top:20px;
+
+}
+.login_text_header{
+    font-size: 18px;
+    text-decoration: none;
+    color: #000000;
+    cursor: pointer;
+}
+.container {
+    width: 100%;
+}
+
+.profile_img_divider {
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+    object-fit: cover;
+   
+}
+
+.profile_image {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.profile_and_btn {
+    display: flex;
+
+}
+
+.profile_info_divider {
+    display: block;
+
+}
+
+.edit_profile_btn_divider {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.profile_edit_btn {
+    height: 35px;
+    border-radius: 10px;
+    padding: 10px 20px;
+    text-align: center;
+    background: rgba(74, 74, 74, 0.925);
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+}
+
+.profile_name {
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    line-height: 5px;
+}
+
+.name_and_icon {
+    margin: 0;
+    width: 100px;
+    display: flex;
+    cursor: pointer;
+    justify-content: start;
+    align-items: center;
+    text-align: center;
+}
+
+.profile_info_text_divider {
+    display: block;
+    margin-left: 0;
+}
+
+.profile_info_text {
+    font-size: 14px;
+    display: block;
+    margin: 5px 20px;
+    font-weight: bold;
+    
+}
+.news_input_profile{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+label{
+    margin-left: 20px;
+}
+.line_user{
+    width: 100%;
+    height: 1px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+}
+.post_wiew_number{
+    margin: 10px 10px;
+    display: flex;
+    font-size: 14px;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.post_icon{
+    justify-content: space-around;
+    margin: 10px 30px;
+    display: flex;
+    font-size: 14px;
+    text-align: center;
+    align-items:center;
+
+}
+
+.post_img_divider{
+    width: 100%;
+    column-gap: 3px;
+    gap: 3px;
+    display: grid;
+    grid-template-columns: repeat(3,4fr);
+}
+
+.post_image{
+    width: 135px;
+    height: 150px;
+    object-fit: cover;
+}
