@@ -3,12 +3,18 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#FFFFFF" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#872e4e" media="(prefers-color-scheme: dark)">
     <link rel="stylesheet" href="./css/user.css" />
     <link rel="stylesheet" href="./css/style1.css">
+    <link rel="stylesheet" href="/src/css/darkmode.css">
     <title>User</title>
   </head>
   <body>
-
+    <button id="theme-switch">
+      <img src="./public/light_mode_24dp_E8EAED_FILL1_wght400_GRAD0_opsz24 (1).svg" alt="light_mode_svg">
+      <img src="./public/dark_mode_24dp_E8EAED_FILL1_wght400_GRAD0_opsz24.svg" alt="dark_mode_svg">
+   </button>
 <header>
     <section class="header">
         <div class="header_divider_users">
@@ -312,7 +318,7 @@
                     
                  <!-- <img class="menu_icon" src="/src/public/icons8-send-letter-50.png" alt="scan"> -->
 
-                 <img width="50" height="50" src="https://img.icons8.com/sf-ultralight/100/camera.png" alt="camera"/>
+                 <img width="30" height="30" src="./public/add_a_photo_24dp_E8EAED_FILL1_wght400_GRAD0_opsz24.svg" alt="camera"/>
                     
                 </div>
                 <div class="icon_divider">
@@ -327,6 +333,7 @@
             </section>
         </nav>
     </footer>
+    <script src="./js/darkmode.js"></script>
     <script src="./js/script_profile_stores.js"></script>
   </body>
 </html>

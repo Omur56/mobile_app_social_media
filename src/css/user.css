@@ -1,3 +1,8 @@
+
+
+
+
+
 * {
     margin: 0 auto;
     padding: 0 auto;
@@ -9,7 +14,7 @@ body {
     font-optical-sizing: auto;
     font-weight: 600;
     font-style: normal;
-    background-color: #ffffff;
+    
     margin-bottom: 100px;
 }
 .header_divider_users{
@@ -29,7 +34,7 @@ body {
 .login_text_header{
     font-size: 18px;
     text-decoration: none;
-    color: #000000;
+    color: #ffffff;
     cursor: pointer;
 }
 .container {
@@ -172,9 +177,3 @@ label{
     
 }
 
-.menu_icon_upload{
-    width: 100%;
-    display: flex;
-    height: fit-content;
-
-}

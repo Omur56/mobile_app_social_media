@@ -1,3 +1,12 @@
+:root{
+    --base-color: white;
+    --base-variant:#8d8d8d;
+    --text-color:#232738;
+    --primary-color:#3a435d;
+    --accent-color:#0071ff;
+    }
+
+
 * {
     margin: 0 auto;
     padding: 0 auto;
@@ -9,9 +18,17 @@ body {
     font-optical-sizing: auto;
     font-weight: 600;
     font-style: normal;
-    background-color: #ffffff;
-}
 
+}
+.darkmode{
+    --base-color: #070b1d;
+--base-variant:#101425;
+--text-color:#000000;
+--secondary-text:#a4a5b8;
+--primary-color:#3a435d;
+--accent-color:#0071ff;
+
+}
 
 .header_divider {
     display: block;
@@ -20,6 +37,7 @@ body {
     margin-top: 0;
 
 }
+
 
 
 .header_logo_nav {
@@ -36,7 +54,7 @@ body {
     font-weight: bold;
     line-height: 10px;
     text-decoration: none;
-    color: #000000;
+    
     cursor: pointer;
     font-family: "Source Sans 3", serif;
     font-optical-sizing: auto;
@@ -52,8 +70,8 @@ body {
     height: 100px;
     overflow: auto;
     counter-increment: gallery-cell;
-    justify-content: center;
-    align-items: center;
+justify-content:center;
+align-items: center;
 
 
 }
@@ -66,9 +84,9 @@ body {
     border-radius: 50%;
     gap: 20px;
     object-fit: cover;
-    align-items: center;
-    justify-content: center;
-    padding-left: 100px;
+   justify-content:center;
+   align-items: center;
+   
 
 }
 
@@ -83,6 +101,7 @@ body {
 
 nav {
     width: 100%;
+    height: 100px;
     display: flex;
     text-align: center;
     position: fixed;
@@ -97,7 +116,6 @@ nav {
     align-items: center;
     justify-content: center;
     gap: 30px;
-
 }
 
 
@@ -114,14 +132,11 @@ nav {
 }
 
 
-
-
 .icon_divider_scasan {
     display: flex;
     width: 52px;
     height: 52px;
     border-radius: 50%;
-    background-color: rgb(255, 255, 255);
     cursor: pointer;
     justify-content: center;
     text-align: center;
@@ -138,7 +153,7 @@ nav {
     text-align: center;
     justify-content: center;
     align-items: center;
-    
+
 
 
 
@@ -147,7 +162,7 @@ nav {
 
 .menu_text:active {
     color: #539DF3;
-  
+
 }
 
 
@@ -158,14 +173,16 @@ nav {
     display: flex;
     margin-top: 50px;
 }
-.name_and_icon{
+
+.name_and_icon {
     gap: 20px;
 }
+
 .image_divider_main {
     width: 600px;
     height: 80vh;
     display: block;
-   margin-top: 70px;
+    margin-top: 70px;
 }
 
 .text_h1 {
@@ -206,12 +223,11 @@ nav {
 }
 
 .info_main {
-    background-color: #ffffff;
     display: block;
 }
 
 .rectangle {
-    width: 100%;
+   width: 100%;
     object-fit: contain;
 }
 
@@ -219,8 +235,6 @@ nav {
     width: 100%;
     height: 50px;
     overflow: auto;
-    color: #000000;
-    background-color: #ffffff;
 }
 
 video {

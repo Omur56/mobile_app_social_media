@@ -6,7 +6,8 @@
     <meta name="theme-color" content="#FFFFFF" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#872e4e" media="(prefers-color-scheme: dark)">
     <link rel="stylesheet" href="./css/style1.css">
-    
+    <link rel="stylesheet" href="./css/darkmode.css">
+   
     <link href="https://fonts.cdnfonts.com/css/hiatus" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,12 +15,20 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    
     <title>Mobile Nav</title>
 </head>
+
+
 <body>
 
-
+  <button id="theme-switch">
+        <img src="./public/light_mode_24dp_E8EAED_FILL1_wght400_GRAD0_opsz24 (1).svg" alt="light_mode_svg">
+        <img src="./public/dark_mode_24dp_E8EAED_FILL1_wght400_GRAD0_opsz24.svg" alt="dark_mode_svg">
+     </button>
+ 
 <header>
+ 
     <section class="header_section">
         <div class="header_divider">
             <div class="header_logo_nav">
@@ -46,6 +55,8 @@
                     <img class="scrol_image" src="./public/images.jpg" alt="image_car">
                     
                     <img class="scrol_image" src="./public/top-carousel-es6-desktop.webp" alt="image_car">
+
+                   
                 </div>
             </div>
         </div>
@@ -72,27 +83,28 @@
                     </div>
 
                     <div class="video_divider">
-                        <div class="video_info">
-                        <video  width="100%" controls autoplay muted>
+                        <div class="video_info ">
+                        <video  width="1080px" controls autoplay muted>
                             <source src="./public/scenery_quran1_engli_1717677435378.mp4" type="video/mp4">
                            
-                          </video> <div class="video_text_divider">
+                          </video>
+                           <div class="video_text_divider info_main">
                                 <p class="video_text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi repudiandae ad expedita, neque quae veniam optio! Numquam repellat suscipit esse sint vel accusamus, quae eos ipsam natus? Provident, enim exercitationem.</p>
                             </div></div>
 
-                            <div class="video_info">
-                          <video width="100%" controls autoplay muted>
+                            <div class="video_info ">
+                          <video width="1080px" controls autoplay muted>
                             <source src="./public/videoplayback - Copy.mp4" type="video/mp4">
                           </video>
-                          <div class="video_text_divider">
+                          <div class="video_text_divider info_main">
                             <p class="video_text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi repudiandae ad expedita, neque quae veniam optio! Numquam repellat suscipit esse sint vel accusamus, quae eos ipsam natus? Provident, enim exercitationem.</p>
                         </div>
                         </div>
-                        <div class="video_info">
-                          <video width="100%" controls autoplay muted >
+                        <div class="video_info info_main">
+                          <video width="1080px" controls autoplay muted >
                             <source src="./public/scenery_quran1_engli_1717677435378.mp4" type="video/mp4">
                           </video>
-                          <div class="video_text_divider">
+                          <div class="video_text_divider info_main">
                             <p class="video_text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi repudiandae ad expedita, neque quae veniam optio! Numquam repellat suscipit esse sint vel accusamus, quae eos ipsam natus? Provident, enim exercitationem.</p>
                         </div>
                         </div>
@@ -128,35 +140,37 @@
 
 
     <footer>
-    <nav>
-        <section>
-        <div class="navbar">
-            <div class="icon_divider"> 
+        <nav>
+            <section>
+            <div class="navbar">
+                <div class="icon_divider"> 
+                    
+                    <a class="menu_text" href="index.html" method="html"><img class="menu_icon" src="/src/public/home_icon.svg" alt="home"></a>
+                </div>
+                <div class="icon_divider">
                 
-                <a class="menu_text" href="#"><img class="menu_icon" src="/src/public/home_icon.svg" alt="home"></a>
-            </div>
-            <div class="icon_divider">
-            
-                <a class="menu_text" href="../src/search.html"><img class="menu_icon" src="/src/public/li_search.svg" alt="search"></a>
-            </div>
-            <div class="icon_divider_scasan">
-                <a class="menu_text_link" href="../src/QR.html">
-                  <!-- <img class="menu_icon" src="/src/public/scan.svg" alt="scan"></a> -->
-                  <img width="50" height="50" src="https://img.icons8.com/sf-ultralight/100/camera.png" alt="camera"/>
-            </div>
-            <div class="icon_divider">
-                
-                <a class="menu_text" href="../demo/index.html"><img class="menu_icon" src="/src/public/li_clock.svg" alt="clock"></a>
-            </div>
-            <div class="icon_divider">
-                
-                <a class="menu_text" href="user.html"><img class="menu_icon" src="/src/public/li_user.svg" alt="user"></a>
-            </div>
-        </div>
-        </section>
-    </nav>
-</footer>
+                    <a class="menu_text" href="../src/search.html"><img class="menu_icon" src="/src/public/li_search.svg" alt="search"></a>
+                </div>
+                <div class="icon_divider_scasan">
+                    
+                 <!-- <img class="menu_icon" src="/src/public/icons8-send-letter-50.png" alt="scan"> -->
 
+                 <img width="30" height="30" src="./public/add_a_photo_24dp_E8EAED_FILL1_wght400_GRAD0_opsz24.svg" alt="camera"/>
+                    
+                </div>
+                <div class="icon_divider">
+                    
+                    <a class="menu_text" href="../demo/index.html"><img class="menu_icon" src="/src/public/li_clock.svg" alt="clock"></a>
+                </div>
+                <div class="icon_divider">
+                    
+                    <a class="menu_text" href="user.html"><img class="menu_icon" src="/src/public/li_user.svg" alt="user"></a>
+                </div>
+            </div>
+            </section>
+        </nav>
+    </footer>
+<script type="text/javascript" src="./js/darkmode.js" defer></script>
 <script src="./script.js"></script> 
 <script type="module" src="https://cdn.jsdelivr.net/npm/emoji-picker-element@^1/index.js"></script>
 </body>
