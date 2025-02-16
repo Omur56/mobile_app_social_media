@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --base-color: white;
+    --base-variant: #8d8d8d;
+    --text-color: #232738;
+    --primary-color: #3a435d;
+    --accent-color: #0071ff;
+}
+
+
+* {
+    margin: 0 auto;
+    padding: 0 auto;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Source Sans 3", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+
+}
+
+.darkmode {
+    --base-color: #070b1d;
+    --base-variant: #101425;
+    --text-color: #000000;
+    --secondary-text: #a4a5b8;
+    --primary-color: #3a435d;
+    --accent-color: #0071ff;
+
+}
+
+.search_divider {
+    width: 100%;
+    display: block;
+}
+
+.search_main {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 0;
+}
+
+.search {
+    width: 400px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    padding-left: 10px;
+    background-color: #cccccc;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.search_list {
+    width: 400px;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 5fr);
+    object-fit: cover;
+    gap: 50px;
+
+}
+
+.search_video_photo {
+    width: 100px;
+    height: 150px;
+    border-radius: 20px;
+    object-fit: cover;
+    margin-top: 20px;
+
+
+
+}
+
+.search_video_photo:hover {
+    transform: scale(2.2);
+    transition: all 2s ease-in-out;
+}
+
+.video_and_photo_search_img {
+    width: 100px;
+    height: 150px;
+    border-radius: 10px;
+    object-fit: cover;
+
+}
